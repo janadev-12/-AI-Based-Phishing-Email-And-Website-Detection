@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    background: black;
+    color: #00ff00;
+    font-family: monospace;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box {
+    border: 1px solid #00ff00;
+    padding: 20px;
+    width: 400px;
+    background: rgba(0,0,0,0.8);
+    box-shadow: 0 0 15px #00ff00;
+}
+
+input {
+    width: 70%;
+    padding: 10px;
+    background: black;
+    border: 1px solid #00ff00;
+    color: #00ff00;
+}
+
+button {
+    padding: 10px;
+    background: black;
+    border: 1px solid #00ff00;
+    color: #00ff00;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #00ff00;
+    color: black;
+}
+
+#terminal {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.result-box {
+    margin-top: 20px;
+    border: 1px solid #00ff00;
+    padding: 15px;
+    display: none;
+}
+
+.bar {
+    width: 100%;
+    height: 10px;
+    background: #111;
+    margin-top: 10px;
+}
+
+#progress {
+    height: 100%;
+    width: 0%;
+    background: #00ff00;
+}
+#matrix {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1; /* background ku poganum */
+}

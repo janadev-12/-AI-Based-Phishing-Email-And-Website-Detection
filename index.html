@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Phishing Detector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="matrix"></canvas>
+
+<div class="main">
+
+    <h1>🔐 AI-Based Phishing Detection</h1>
+
+    <div class="box">
+        <h2>Check URL / Email</h2>
+
+        <input type="text" id="inputText" placeholder="Enter URL or Email">
+        <button onclick="startAnalysis()">Analyze</button>
+
+        <div id="terminal"></div>
+    </div>
+
+    <div class="result-box" id="resultBox">
+        <h2>Result</h2>
+        <p id="resultText"></p>
+        <div class="bar">
+            <div id="progress"></div>
+        </div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
